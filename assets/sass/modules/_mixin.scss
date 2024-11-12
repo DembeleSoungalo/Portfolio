@@ -1,0 +1,6 @@
+$color1:#3d3838;
+$color2:#990d0d;
+$color3:#990d;
+@mixin gradiant($color1, $color2,$color3){
+    background-color:linear-gradient(to left,$color1, $color2,$color3);
+};

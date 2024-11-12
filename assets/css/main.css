@@ -1,0 +1,257 @@
+/* Styling for the project section */
+#projet {
+  text-align: center; /* Center align text within the section */
+  padding: 20px; /* Add padding around the section content */
+}
+
+#proje-img {
+  margin-bottom: 20px; /* Add margin below the image */
+}
+
+#proje-img img {
+  max-width: 100%; /* Ensure image scales responsively */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the article within the project section */
+#article {
+  margin-bottom: 20px; /* Add margin below the article */
+}
+
+/* Styling for the future projects section */
+.Project-item {
+  text-align: left; /* Align text to the left */
+}
+
+/* Styling for the list of future projects */
+#future-projet ul {
+  list-style: none; /* Remove default list markers */
+  padding: 0; /* Reset padding for the list */
+}
+
+#future-projet li {
+  margin-bottom: 20px; /* Add margin below each list item */
+}
+
+#future-projet li h2 {
+  margin-bottom: 10px; /* Add margin below the heading in each list item */
+}
+
+#future-projet li img {
+  max-width: 100%; /* Ensure images scale responsively */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Make images block-level elements */
+  margin: 0 auto; /* Center align images */
+}
+
+/* showcase*/
+.h1-w {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+  line-height: 1.1;
+}
+
+.h1-m {
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9450980392);
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #b99717;
+  padding: 1rem 3rem;
+  margin: 3rem 2rem;
+  border: none;
+  border-radius: 2;
+  transition: all;
+  align-items: center;
+  align-content: center;
+}
+
+#showcase {
+  padding: 20%;
+  margin: auto;
+  background: linear-gradient(45deg, #3d3838, #990d0d);
+}
+
+#showcase h1 {
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#showcase h1 p {
+  margin-right: 100px;
+  font-size: x-large;
+  align-content: center;
+}
+
+.show-content a:hover {
+  background-color: rgba(202, 202, 21, 0.9647058824);
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: baseline;
+  overflow: hidden;
+}
+
+.container ul li {
+  display: inline-block;
+  align-content: center;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+/* the whole design */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  background-color: #a51717;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.intro button {
+  padding: 1rem 2rem;
+  background-color: #990d0d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intro button:hover {
+  background-color: #770a0a;
+}
+
+/*End of the showcase*/
+/*About*/
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: auto;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: #e9e6e6;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.about button {
+  padding: 1rem 2rem;
+  background-color: #990d0d;
+  color: #fff;
+}
+
+/* Skill start*/
+.progress-container {
+  width: 100px; /* Adjust the width as needed */
+  height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: rgba(153, 153, 0, 0.8666666667); /* Green color, adjust as needed */
+  transition: width 0.5s ease; /* Smooth transition */
+}
+
+#progressInput {
+  display: none; /* Hide the input element */
+}
+
+.about, .object, .projects {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 25px 50px;
+  margin: 60px 30px;
+  border-radius: 25px;
+  border: 1px solid #f3f0f0;
+  background: #e9e6e6;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.about img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.object {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.object .object-item {
+  width: 30%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+.object .object-item img {
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/*End of the main*//*# sourceMappingURL=main.css.map */

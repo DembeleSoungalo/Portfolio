@@ -1,0 +1,152 @@
+footer {
+  background-color: #333; /* Dark background */
+  color: #fff; /* White text */
+  padding: 40px 0; /* Top/bottom padding, no left/right */
+  text-align: center; /* Center align text */
+}
+
+.container {
+  max-width: 960px; /* Limit container width for better readability */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Footer Content Area */
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Evenly space content */
+  align-items: flex-start; /* Align items to the top */
+  flex-wrap: wrap; /* Wrap content on smaller screens */
+  margin-bottom: 30px; /* Space between content and bottom */
+}
+
+.contact-info,
+.map {
+  flex: 1 0 300px; /* Each section takes equal width, min 300px */
+  margin-bottom: 20px; /* Space between sections */
+  order: 2;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/* Map Styling */
+.map iframe {
+  width: 100%; /* Make map responsive */
+}
+
+/* Footer Bottom (Social & Copyright) */
+.footer-bottom {
+  border-top: 1px solid #555; /* Thin gray line above */
+  padding-top: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.footer-bottom .social a:hover {
+  margin: 0 15px; /* Space between icons */
+}
+
+.footer-bottom .social a:hover {
+  transform: translate(5px, -5px);
+}
+
+.footer-bottom p,
+.footer-bottom a {
+  color: #bbb; /* Lighter gray for copyright and Home link */
+  text-decoration: none;
+}
+
+/* footer{
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #f34f4f;
+}
+footer .social{
+    background-color: aqua;
+    width: 500px;
+
+}
+footer iframe{
+    width: 500px;height: 100px;
+} */
+/*Fomulaire Style Start*/
+/* ... your existing CSS ... */
+/* Contact Form Styling */
+.profile-pic {
+  width: 15%;
+  height: 50%;
+  border-radius: 50px;
+}
+
+/* .container img{
+  display: none;
+} */
+#contact {
+  text-align: left; /* Align form elements to the left */
+}
+
+#contact form {
+  width: 100%; /* Make the form responsive */
+  max-width: 400px; /* Limit the form width for better readability */
+}
+
+#contact fieldset {
+  border: none; /* Remove default fieldset border */
+  padding: 0;
+}
+
+#contact label {
+  display: block; /* Place labels on their own line */
+  margin-bottom: 5px;
+}
+
+#contact input[type=text],
+#contact input[type=email],
+#contact textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#contact textarea {
+  min-height: 120px; /* Set a minimum height for the textarea */
+}
+
+#contact button[type=submit] {
+  background-color: var(--bg-btn-color); /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+#contact button[type=submit]:hover {
+  background-color: rgba(202, 202, 21, 0.9647058824);
+}
+
+input:focus {
+  transition: all 0.5s ease-in;
+  /* background-color: var(--bg-btn-color); */
+}
+
+textarea:hover {
+  transition: all 0.5s ease-in;
+  /* background-color: var(--bg-btn-color); */
+}
+
+/*Fomulaire Style End*//*# sourceMappingURL=style.css.map */
