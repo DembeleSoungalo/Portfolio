@@ -8,8 +8,8 @@ let dice = document.querySelectorAll("img");
 //for select img elements
 function roll(){
     //add animation 
-	dice.forEach(function(die){
-		die.classList.add("shake");
+	dice.forEach(function(dee){
+		dee.classList.add("shake");
 	});
     let diceRollSound = new Audio('audio/dice-roll-sound.mp3'); // Replace with your sound file
 
@@ -20,19 +20,29 @@ function roll(){
         diceRollSound.play();
     //timeout to remove animation
     setTimeout(function(){
-        dice.forEach(function(die){
-            die.classList.remove("shake");
+        dice.forEach(function(dee){
+            dee.classList.remove("shake");
         });
         //initiate random value 1 to 6
-		let dieOneValue = Math.floor(Math.random()*6);
-		let dieTwoValue = Math.floor(Math.random()*6);
-		console.log(dieOneValue,dieTwoValue);
-		document.querySelector("#die-1").setAttribute("src", images[dieOneValue]);
-		document.querySelector("#die-2").setAttribute("src", images[dieTwoValue]);
-		document.querySelector("#total").innerHTML = ` your socre is   ${((dieOneValue)+ 1) +  ((dieTwoValue)+ 1)}` ;
+		let deeValueOne = Math.floor(Math.random()*6) + 1;
+		let deeValueTwo = Math.floor(Math.random()*6) + 1;
+		console.log(deeValueOne,deeValueTwo);
+		document.querySelector("#die-1").setAttribute("src", images[deeValueOne -1]);
+		document.querySelector("#die-2").setAttribute("src", images[deeValueTwo -1]);
+		document.querySelector("#total").innerHTML = ` your socre is   ${((deeValueOne)) +  ((deeValueTwo))}` ;
+        // if (deeValueOne == 6) {
+        //     document.querySelector("#win").innerHTML = ` Player One is the winner !!!`;
+        // }
+        // if (deeValueTwo == 6) {
+        //     document.querySelector("#win").innerHTML = ` Player Two is the winner !!!`; 
+            
+        // }
+        // else{
+        //     document.querySelector("#total").innerHTML = ` your socre is   ${((deeValueOne)) +  ((deeValueTwo))}` ;
+        // }
 
         //to 
-        // if(dieOneValue>dieTwoValue){
+        // if(deeValueOne>deeValueTwo){
 
         // }
         // Create an audio element for the sound

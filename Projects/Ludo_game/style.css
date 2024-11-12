@@ -7,6 +7,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body{
     height: 100vh;
     /* background: linear-gradient(#e143,#e1e) 0 100% no-repeat; */
@@ -47,14 +50,15 @@ body h1{
     justify-content: space-around;
 }
 p{
-    font-size: 16px;
+    font-size: 30px;
     margin: 30px;
     font-weight: 500;
-    background-color: rgba(3, 3, 3, 0);
+    /* background-color: rgba(3, 3, 3, 0); */
    padding: 9px;
-   outline: auto rgb(10, 10, 10);
+   /* outline: auto rgb(10, 10, 10); */
    box-shadow: 0 15px 35px rgba(50, 50, 50, 0.15);
 }
+
 button{
     background-color: #e92e3d;
     border: none;
@@ -78,6 +82,7 @@ button:hover{
     width: 100px;
     height: 100px;
 }
+
 .shake {
     animation: shake 0.5s infinite; /* Adjust duration and easing as needed */
   }
